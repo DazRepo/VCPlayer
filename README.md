@@ -68,7 +68,8 @@ pip3 install -r requirements.txt
 # install node js
 sudo bash install_node.sh
 # <Create Variables appropriately (.env [optional])>
-cp prime.env .env
+cp env.sample .env
+nano .env
 # start with cmd
 python3 main.py
 ```
